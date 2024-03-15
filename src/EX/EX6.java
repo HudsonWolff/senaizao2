@@ -4,20 +4,40 @@ import java.util.Scanner;
 
 public class EX6 {
     public static void main(String[] args) {
-       int idade,soma=0,media = 0,quantidade;
+        int quantidade , idade , somaIdades = 0 , media , cont = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("A idade de quantas pessoas deseja digitar ?");
+        System.out.println("Quantas pessoas vc deseja receber a idade");
         quantidade = scanner.nextInt();
-        System.out.println("Digite as idades");
 
-        for (int i = 0; i<quantidade  ; i++) {
-            idade = scanner.nextInt();
-            soma = idade+soma;
-            media = soma/quantidade;
+        for (int i = 0; i < quantidade; i++) {
+            System.out.println("Digite sua idade");
+idade= scanner.nextInt();
+
+if (idade >= 18){
+    cont++;
+    somaIdades=idade+somaIdades;
+
+}
 
         }
-        System.out.println("O total da soma das idades é de : " + soma);
-        System.out.println("A media das idades digitadas é de : " + media);
+        media = somaIdades/quantidade;
+        System.out.println("A media das idades é de : " + media );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
