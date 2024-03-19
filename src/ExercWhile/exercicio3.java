@@ -10,18 +10,7 @@ public class exercicio3 {
         int idade = 0;
         double salario = 0;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite seu nome");
-        nome = scanner.nextLine();
-        System.out.println("Digite sua idade");
-        idade = scanner.nextInt();
-        System.out.println("Digite seu salario");
-        salario = scanner.nextDouble();
-        scanner.nextLine();
-        System.out.println("Digite seu sexo (f/m)");
-        sexo = scanner.nextLine();
-        System.out.println("Digite seu Estado civil (s/c/v/d)");
-        ec = scanner.nextLine();
-
+        
 
 
 
