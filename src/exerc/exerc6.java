@@ -14,7 +14,7 @@ public class exerc6 {
 
         }
 
-        System.out.println("A soma de todas as idades Digitadas é de : " +soma);
+        System.out.println("A soma.txt de todas as idades Digitadas é de : " +soma);
 
     }
 }

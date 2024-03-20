@@ -12,7 +12,7 @@ public class exercSOMA {
         int numero2 = scanner.nextInt();
 
         int soma = numero1 + numero2;
-        System.out.println("O resultado da soma dos numeros é : " + soma);
+        System.out.println("O resultado da soma.txt dos numeros é : " + soma);
 
         int subt = numero1 - numero2;
         System.out.println("O resultado da subtração dos numero é de : " + subt);
